@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Turn English engineering papers into Chinese, evidence-backed writing blueprints.",
   "author": {
-    "name": "Community Contributor"
+    "name": "Zhou Yicheng",
+    "url": "https://github.com/182311729zhouyicheng"
   },
+  "homepage": "https://github.com/182311729zhouyicheng/paper-style-deconstruct",
+  "repository": "https://github.com/182311729zhouyicheng/paper-style-deconstruct",
   "license": "Apache-2.0",
   "keywords": [
     "agent-skills",
@@ -19,7 +22,7 @@
     "displayName": "论文写作风格拆解",
     "shortDescription": "从英文工程论文提炼可复用的中文写作蓝图。",
     "longDescription": "逐句分析英文工程论文的修辞、章节论证、公式、图表与引用策略，并产出可迁移的中文写作配方。",
-    "developerName": "Community Contributor",
+    "developerName": "Zhou Yicheng",
     "category": "Productivity",
     "capabilities": ["Analyze", "Write"],
     "defaultPrompt": [
