@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文写作风格拆解"
+  short_description: "拆解英文工程论文的修辞、结构与图表策略，并生成中文写作蓝图。"
+  default_prompt: "请完整拆解这篇英文工程论文的写作风格。"
