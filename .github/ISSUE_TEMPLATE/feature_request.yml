@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest an improvement to paper analysis, extraction, or documentation.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: User problem
+      description: Describe the workflow that is currently difficult.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Explain the desired result and any public evaluation paper that would verify it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: copyright
+    attributes:
+      label: Copyright boundary
+      options:
+        - label: This request does not require committing a copyrighted or private PDF.
+          required: true
