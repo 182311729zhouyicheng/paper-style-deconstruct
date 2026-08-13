@@ -18,7 +18,7 @@ It is intended for computer science, electrical engineering, automation, and clo
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-github-username>/paper-style-deconstruct.git
+git clone https://github.com/182311729zhouyicheng/paper-style-deconstruct.git
 cd paper-style-deconstruct
 python -m pip install -r skills/paper-style-deconstruct/requirements.txt
 python skills/paper-style-deconstruct/scripts/extract_pdf.py path/to/paper.pdf
