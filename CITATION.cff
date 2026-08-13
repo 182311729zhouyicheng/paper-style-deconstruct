@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If this skill helps your research workflow, please cite the repository."
+title: "Paper Style Deconstruct"
+type: software
+license: Apache-2.0
+abstract: "An Agent Skill that deconstructs English engineering research papers into Chinese, evidence-backed writing blueprints."
+keywords:
+  - agent-skills
+  - academic-writing
+  - research-paper
+  - pdf-analysis
+  - codex
+version: 1.0.0
