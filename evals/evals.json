@@ -1,0 +1,31 @@
+{
+  "skill_name": "paper-style-deconstruct",
+  "version": 1,
+  "copyright_policy": "Evaluation PDFs are downloaded by the evaluator from the linked public sources and must not be committed to this repository.",
+  "evals": [
+    {
+      "id": "attention-is-all-you-need",
+      "source_url": "https://arxiv.org/pdf/1706.03762",
+      "source_page": "https://arxiv.org/abs/1706.03762",
+      "scope": "Full readable body text",
+      "expected_coverage": [
+        "Sentence-level rhetoric in abstract, introduction, method, and experiments",
+        "Numbered formulas and their introduction/explanation patterns",
+        "Tables and architecture/attention figures",
+        "Section argument progression and an evidence-based writing blueprint"
+      ]
+    },
+    {
+      "id": "resnet-deep-residual-learning",
+      "source_url": "https://arxiv.org/pdf/1512.03385",
+      "source_page": "https://arxiv.org/abs/1512.03385",
+      "scope": "Full readable body text",
+      "expected_coverage": [
+        "Dense vector architecture diagrams via page renders",
+        "Experimental tables and result narration",
+        "Residual-learning motivation and method-to-experiment transitions",
+        "Limitations noted for unreadable visual details"
+      ]
+    }
+  ]
+}
