@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible extraction or skill behavior issue.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not upload copyrighted, private, or unpublished paper PDFs.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and the expected behavior.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public PDF URL or synthetic reproduction
+      description: Link only to a public document, or provide steps to create a synthetic PDF.
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and environment
+      description: Include the command, Python version, and dependency versions.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      description: Remove private paper text and personal information.
