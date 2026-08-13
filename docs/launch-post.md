@@ -12,7 +12,7 @@ I built an open-source Agent Skill for learning how strong engineering papers ar
 
 The repository includes reproducible public-paper cases, automated extraction tests, and strict copyright boundaries: no source PDFs, no extracted paper corpus, and no full-paper transcript in the generated report.
 
-Repository: `https://github.com/182311729zhouyicheng/paper-style-deconstruct`
+Repository: `https://github.com/jackz121000/paper-style-deconstruct`
 
 Useful feedback:
 

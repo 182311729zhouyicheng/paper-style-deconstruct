@@ -4,10 +4,10 @@
   "description": "Turn English engineering papers into Chinese, evidence-backed writing blueprints.",
   "author": {
     "name": "Zhou Yicheng",
-    "url": "https://github.com/182311729zhouyicheng"
+    "url": "https://github.com/jackz121000"
   },
-  "homepage": "https://github.com/182311729zhouyicheng/paper-style-deconstruct",
-  "repository": "https://github.com/182311729zhouyicheng/paper-style-deconstruct",
+  "homepage": "https://github.com/jackz121000/paper-style-deconstruct",
+  "repository": "https://github.com/jackz121000/paper-style-deconstruct",
   "license": "Apache-2.0",
   "keywords": [
     "agent-skills",
