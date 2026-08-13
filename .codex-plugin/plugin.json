@@ -1,0 +1,33 @@
+{
+  "name": "paper-style-deconstruct",
+  "version": "1.0.0",
+  "description": "Turn English engineering papers into Chinese, evidence-backed writing blueprints.",
+  "author": {
+    "name": "Community Contributor"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "agent-skills",
+    "codex",
+    "academic-writing",
+    "research-paper",
+    "pdf-analysis",
+    "engineering"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "论文写作风格拆解",
+    "shortDescription": "从英文工程论文提炼可复用的中文写作蓝图。",
+    "longDescription": "逐句分析英文工程论文的修辞、章节论证、公式、图表与引用策略，并产出可迁移的中文写作配方。",
+    "developerName": "Community Contributor",
+    "category": "Productivity",
+    "capabilities": ["Analyze", "Write"],
+    "defaultPrompt": [
+      "完整拆解这篇英文工程论文的写作风格。",
+      "分析这篇论文如何用公式、图表和实验推进论证。",
+      "提炼这篇论文的 Introduction 与 Method 写作配方。"
+    ],
+    "brandColor": "#0F766E",
+    "screenshots": []
+  }
+}
