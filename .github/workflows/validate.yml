@@ -1,0 +1,22 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r skills/paper-style-deconstruct/requirements-dev.txt
+      - name: Validate package
+        run: python skills/paper-style-deconstruct/scripts/check_quality.py
+      - name: Run unit tests
+        run: python -B -m unittest discover -s skills/paper-style-deconstruct/tests -v
+      - name: Validate Codex plugin
+        run: python tools/validate_plugin.py .
